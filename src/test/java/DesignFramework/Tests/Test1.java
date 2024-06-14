@@ -41,5 +41,6 @@ public class Test1 extends BaseTest{
 	public void getName()
 	{
 		System.out.println("Diksha Kamdi");
+		System.out.println("Shekhar Nartam");
 	}
 }
