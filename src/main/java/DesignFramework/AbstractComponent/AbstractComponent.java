@@ -23,7 +23,7 @@ public class AbstractComponent {
 	WebElement cartButton;
 	
 	public void waitforElementToAppear(By ele) {
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(ele));
 	}
 	
