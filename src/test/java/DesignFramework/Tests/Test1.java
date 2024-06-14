@@ -38,4 +38,8 @@ public class Test1 extends BaseTest{
 		return new Object[][] {{data.get(0)},{data.get(1)}};
 	}
 
+	public void getName()
+	{
+		System.out.println("Diksha Kamdi");
+	}
 }
